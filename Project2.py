@@ -75,7 +75,7 @@ def Project2():
       continue
 
     if cmd == cmd_die:
-      print('\nBy virtue of your own sheer will to live, or lack thereof, you propmptly hace collapsed on the floor and died. Excellent.')
+      print('\nBy virtue of your own sheer will to live, or lack thereof, you have propmptly collapsed on the floor and died. Excellent.')
       return False
 
 
@@ -155,7 +155,7 @@ def Project2():
       if cmd == cmd_north:
         if flag_stella_fed:
           if flag_first_bedroom:
-            print("\nFinally, your comfortable abode! How long you wished to get to this plate. However, before you go to bed, you need to make sure that everything is tucked away and tidy.")
+            print("\nFinally, your comfortable abode! How long you have wished to get to this place. However, before you go to bed, you need to make sure that everything is tucked away and tidy.")
             flag_first_bedroom = False
           else:
             print("\nYou moved to the bedroom.")
@@ -270,11 +270,11 @@ def Project2():
 
       if cmd == cmd_get:
         if flag_pantry_open:
-          if flag_spam_put:
-            print("\nYou try to grab the spam from the pantry, but it bites you in the process. It would be unwise to do that again.")
           if not (flag_inv_bone or flag_stella_fed):
             print("\nYou decide to grab the abominable bone with your left, skeleton hand and put it in your pocket. Just in case.")
             flag_inv_bone = True
+          elif flag_spam_put:
+            print("\nYou try to grab the spam from the pantry, but the pantry bites you in the process. It would be unwise to do that again.")
           else:
             print("\nYou try to grab something from the pantry, but there's nothing there at all. Maybe you should start making that shopping grimoire.")
         else:
@@ -311,7 +311,7 @@ def Project2():
           if flag_pantry_locked:
             print("\nThe pantry is sealed tight and shut.")
           else:
-            print("\nFearful of what might come out of it, you lock the pantry once more, containing the evil within")
+            print("\nFearful of what might come out of it, you lock the pantry once more, containing the evil within...")
             flag_pantry_locked = True
         continue
 
@@ -346,7 +346,7 @@ def Project2():
           print('\nKris, get the spam.')
           flag_deltarune = True
         elif not flag_spam_put:
-          print('\nThe heavenly sounds of lovely spam are keeping you awake.')
+          print('\nThe heavenly sounds of lovely spam are keeping you awake. Put it back in the pantry.')
         else:
           print('\nFinally. Peace.')
           break
@@ -381,6 +381,6 @@ def Project2():
 
     print("\nInvalid command. Try again.")
 
-  print("\nYou win!")
+  print("You win!")
   print(turn, "turns wasted.")
   return True

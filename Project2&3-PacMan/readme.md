@@ -4,8 +4,6 @@ daniel.febles1@upr.edu
 
 All of the features from Project 2 are fully functional, and most of Project 3's features as well (excluding GPS, which only works half the time).
 
-Please never do this again, I feel terrible.
-
 ### Rank properties:
 
 | Powerup  | Rank |

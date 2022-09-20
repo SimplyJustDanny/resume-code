@@ -2,7 +2,7 @@ Project 3 by Daniel Febles and Justin [REDACTED]
 daniel.febles1@upr.edu
 [REDACTED EMAIL]
 
-All of the features from Project 2 are fully functional, and most of Project 3's features as well (excluding GPS, which only works half the time).
+All of the features from Project 2 are fully functional, and most of Project 3's features as well.
 
 ### Rank properties:
 

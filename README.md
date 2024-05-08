@@ -16,7 +16,7 @@ Java:
 - TwoSums [twoSum()]: Function that finds a unique pair of ints in an array that form a target sum in O(n*log(n)) time.
 
 Python:
-- artificialintelligence-project-1-PacmanSearch: 
+- artificialintelligence-project-1-PacmanSearch: A fork of Berkeley University's CS188 Spring 2024 Project 1, which is a simulation of Pac-Man that utilized searching algorithms to find the exit. Solved up to Q4. Algorithms implemented include depth-first search, breadth-first search, uniform cost search and A-star search.
 - artificialintelligence-project-2-FullyConnectedNeuralNetworks: Two Jupyter notebooks for regression and classification respectively. Both notebooks contain three neural networks that train with the Auto MPG and the MNIST datasets respectively.
 - artificialintelligence-project-3-ConvolutedNeuralNetworks: A Jupyter notebook featuring three convoluted, fully-connected neural networks designed to train and test both MNIST and CIFAR10 datasets.
 - algorithm-project-1-DNASequencingAlignment: Algorithm that created 2D arrays in order to compare, navigate and score DNA sequences for alignment.

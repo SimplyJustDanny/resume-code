@@ -1,0 +1,6 @@
+#ifndef SINEGENERATOR_GENERATOR_H_
+#define SINEGENERATOR_GENERATOR_H_
+
+void Generate();
+
+#endif  // SINEGENERATOR_GENERATOR_H_

@@ -1,0 +1,3 @@
+/home/vboxuser/Work/SineVisualizer/build/CMakeFiles/sine_visualizer.dir
+/home/vboxuser/Work/SineVisualizer/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Work/SineVisualizer/build/CMakeFiles/rebuild_cache.dir

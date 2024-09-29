@@ -1,0 +1,1 @@
+/usr/bin/gcc-13 -g CMakeFiles/sine_visualizer.dir/src/visualizer.c.o CMakeFiles/sine_visualizer.dir/src/main.c.o -o sine_visualizer 

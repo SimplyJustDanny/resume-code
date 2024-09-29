@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/vboxuser/Work/SineGenerator/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineGenerator/include -g -o CMakeFiles/sine_generator.dir/src/generator.c.o -c /home/vboxuser/Work/SineGenerator/src/generator.c",
+  "file": "/home/vboxuser/Work/SineGenerator/src/generator.c",
+  "output": "CMakeFiles/sine_generator.dir/src/generator.c.o"
+},
+{
+  "directory": "/home/vboxuser/Work/SineGenerator/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineGenerator/include -g -o CMakeFiles/sine_generator.dir/src/main.c.o -c /home/vboxuser/Work/SineGenerator/src/main.c",
+  "file": "/home/vboxuser/Work/SineGenerator/src/main.c",
+  "output": "CMakeFiles/sine_generator.dir/src/main.c.o"
+}
+]

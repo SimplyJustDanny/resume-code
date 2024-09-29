@@ -1,0 +1,1 @@
+/usr/bin/gcc-13 -g CMakeFiles/sine_analyzer.dir/src/analyzer.c.o CMakeFiles/sine_analyzer.dir/src/main.c.o -o sine_analyzer  -lm 

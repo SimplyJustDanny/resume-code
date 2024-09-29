@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/vboxuser/Work/SineVisualizer/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineVisualizer/include -g -o CMakeFiles/sine_visualizer.dir/src/visualizer.c.o -c /home/vboxuser/Work/SineVisualizer/src/visualizer.c",
+  "file": "/home/vboxuser/Work/SineVisualizer/src/visualizer.c",
+  "output": "CMakeFiles/sine_visualizer.dir/src/visualizer.c.o"
+},
+{
+  "directory": "/home/vboxuser/Work/SineVisualizer/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineVisualizer/include -g -o CMakeFiles/sine_visualizer.dir/src/main.c.o -c /home/vboxuser/Work/SineVisualizer/src/main.c",
+  "file": "/home/vboxuser/Work/SineVisualizer/src/main.c",
+  "output": "CMakeFiles/sine_visualizer.dir/src/main.c.o"
+}
+]

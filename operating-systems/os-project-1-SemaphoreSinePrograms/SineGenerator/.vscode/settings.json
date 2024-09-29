@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "greetings.h": "c",
+    "semaphore.h": "c",
+    "fcntl.h": "c",
+    "stdio.h": "c",
+    "shm.h": "c",
+    "ipc.h": "c",
+    "generator.h": "c",
+    "time.h": "c",
+    "stdlib.h": "c",
+    "math.h": "c"
+  }
+}

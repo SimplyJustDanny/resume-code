@@ -1,0 +1,1 @@
+/usr/bin/gcc-13 -g CMakeFiles/sine_generator.dir/src/generator.c.o CMakeFiles/sine_generator.dir/src/main.c.o -o sine_generator 

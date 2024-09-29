@@ -1,0 +1,3 @@
+/home/vboxuser/Work/SineAnalyzer/build/CMakeFiles/sine_analyzer.dir
+/home/vboxuser/Work/SineAnalyzer/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Work/SineAnalyzer/build/CMakeFiles/rebuild_cache.dir

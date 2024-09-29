@@ -1,0 +1,6 @@
+#ifndef SINEANALYZER_ANALYZER_H_
+#define SINEANALYZER_ANALYZER_H_
+
+void Analyze();
+
+#endif  // SINEANALYZER_ANALYZER_H_

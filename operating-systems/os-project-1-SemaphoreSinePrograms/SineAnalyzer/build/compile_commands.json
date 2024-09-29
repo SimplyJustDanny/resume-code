@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/vboxuser/Work/SineAnalyzer/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineAnalyzer/include -g -o CMakeFiles/sine_analyzer.dir/src/analyzer.c.o -c /home/vboxuser/Work/SineAnalyzer/src/analyzer.c",
+  "file": "/home/vboxuser/Work/SineAnalyzer/src/analyzer.c",
+  "output": "CMakeFiles/sine_analyzer.dir/src/analyzer.c.o"
+},
+{
+  "directory": "/home/vboxuser/Work/SineAnalyzer/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/SineAnalyzer/include -g -o CMakeFiles/sine_analyzer.dir/src/main.c.o -c /home/vboxuser/Work/SineAnalyzer/src/main.c",
+  "file": "/home/vboxuser/Work/SineAnalyzer/src/main.c",
+  "output": "CMakeFiles/sine_analyzer.dir/src/main.c.o"
+}
+]

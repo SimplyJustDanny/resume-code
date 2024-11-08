@@ -30,8 +30,10 @@ Intro to Programming (Python):
 - introprog-project-2-TextGame: Programmed a 1980s styled text adventure game, where you explore a house and do bizarre, comedic, and magical activities. Made to entertain players with a fun experience. Has QoL features like a built-in map and an inventory tracker.
 - toRoman() and fromRoman(): Built two functions that converted Arabic to Roman numerals and vice versa respectively, both in under 50 lines of code. Both functions were used to convert two texts document containing 4000 Arabic and Roman numbers respectively, which they both did quickly.
 
-Operating Systems (C [Linux]):
-- os-project-1-SemaphoreSinePrograms: Multiple programs (SineGenerator, SineAnalyzer, and SineVisualizer) that work synchronously via semaphores to generate doubles, compute their sine values, and have both be printed respectively. Documented and commented with Doxygen and coded in the style of Google.
+Operating Systems (C [Linux Ubuntu]):
+- os-project-1-SemaphoreSinePrograms: Made multiple programs (SineGenerator, SineAnalyzer, and SineVisualizer) that work synchronously via semaphores to generate doubles, compute their sine values, and have both be printed respectively. Documented and commented with Doxygen and coded in the style of Google.
+- os-project-2-IMUDriverSimulator: Built two programs. IMUDriver periodically edits a file via timers to simulate a device driver of a robot's motion sensor. Supervisor checks if an instance of IMUDriver is still running, and, if not, creates a new one via a fork. Both documented and commented with Doxygen and coded in the style of Google.
 
 Programming Languages (Python):
-- pl-project-1-C++Scanner: Using PLY, designed a lexical analyzer that recognizes rudimentary C++ styled code, tokenizes it and prints what and where the token is. Recognizes identifiers, numbers, keywords, delimiters, and operators. Properly handles whitespaces, newlines, comments, and illegal characters.
+- pl-project-1-C++Lexer: Using PLY's LEX, designed a lexical analyzer that recognizes rudimentary C++ styled code, tokenizes it and prints what and where the token is. Recognizes identifiers, numbers, keywords, delimiters, and operators. Properly handles whitespaces, newlines, comments, and illegal characters.
+- pl-project-2-C++Parser: Built, on top of the prior lexer, a parsing code via PLY's YACC that recognizes a rudimentary C++ context-free grammar.  Recognizes statements such as assignments, if conditionals, if-else conditionals, while loops, action statements, operation expressions, boolean expressions, let expressions, functions and structs.

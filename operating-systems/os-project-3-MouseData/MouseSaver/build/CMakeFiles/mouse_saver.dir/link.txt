@@ -1,0 +1,1 @@
+/usr/bin/gcc-13 -g CMakeFiles/mouse_saver.dir/src/saver.c.o CMakeFiles/mouse_saver.dir/src/main.c.o -o mouse_saver 

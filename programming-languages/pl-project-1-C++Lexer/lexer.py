@@ -1,17 +1,26 @@
+import logging
 import ply.lex as lex
+
+# Keywords for easy conversion of regex to tokens
+keywords = {
+    'if' : 'IF', 'else' : 'ELSE', 'while' : 'WHILE', 'let' : 'LET',
+    'loop' : 'LOOP', 'fn' : 'FN', 'mut' : 'MUT', 'ref' : 'REF', 'in' : 'IN',
+    'struct' : 'STRUCT', 'type' : 'TYPE', 'return' : 'RETURN', 'true' : 'TRUE',
+    'false' : 'FALSE', 'where' : 'WHERE', 'write' : 'WRITE',
+}
 
 tokens = [
     'IDENTIFIER', 'NUMBER',
-    # Keywords
-    'IF', 'ELSE', 'WHILE', 'LET', 'LOOP', 'FN', 'MUT', 'PUB', 'REF', 'IN',
-    'STRUCT', 'TYPE', 'RETURN', 'TRUE', 'FALSE', 'WHERE', 'WRITE',
     # Delimiters
-    'LPAREN', 'RPAREN', 'LCURLY', 'RCURLY','LSQR', 'RSQR', 'SEMICOLON', 'COMMA',
+    'LPAREN', 'RPAREN', 'LCURLY', 'RCURLY', 'LSQR', 'RSQR', 'SEMICOLON', 
+    'COMMA',
     # Operators
-    'EQUALS', 'NEQ', 'LEQ', 'GEQ', 'LT', 'GT', 'PLUS', 'MINUS', 'STAR', 'SLASH', 'MOD'
-]
+    'EQUALS', 'NEQ', 'LEQ', 'GEQ', 'LT', 'GT', 'PLUS', 'MINUS', 'STAR', 
+    'SLASH', 'MOD',
+] + list(set(keywords.values()))
 
-# Handlers that ignore whitespace, comments, newlines, and print illegal chars respectively
+# Handlers that ignore whitespace, comments, newlines,
+# and print illegal chars respectively
 t_ignore = ' \t'
 
 def t_ignore_comment(t):
@@ -34,7 +43,6 @@ t_LET       = 'let'
 t_LOOP      = 'loop'
 t_FN        = 'fn'
 t_MUT       = 'mut'
-t_PUB       = 'pub'
 t_REF       = 'ref'
 t_IN        = 'in'
 t_STRUCT    = 'struct'
@@ -69,8 +77,8 @@ t_MOD       = r'%'
 # Regular expression for identifiers, which parses keywords in the token list
 def t_IDENTIFIER(t):
     r'[a-z_][a-z_0-9]*'
-    check = t.value.upper()
-    if check in tokens: t.type = check
+    if t.value in keywords.keys():
+        t.type = keywords[t.value]
     return t
 
 # Regular expression for numbers, which are then parsed as ints
@@ -91,3 +99,4 @@ while True:
     if not tok:
         break
     print(tok)
+log = logging.getLogger()

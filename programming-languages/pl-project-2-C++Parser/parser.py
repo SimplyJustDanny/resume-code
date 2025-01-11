@@ -1,9 +1,11 @@
+import logging
 import ply.lex as lex
 import ply.yacc as yacc
 
+# Keywords for easy conversion of regex to tokens
 keywords = {
-    'if' : 'IF', 'else' : 'ELSE', 'while' : 'WHILE', 'let' : 'LET', 'loop' : 'LOOP',
-    'fn' : 'FN', 'mut' : 'MUT', 'pub' : 'PUB', 'ref' : 'REF', 'in' : 'IN',
+    'if' : 'IF', 'else' : 'ELSE', 'while' : 'WHILE', 'let' : 'LET',
+    'loop' : 'LOOP', 'fn' : 'FN', 'mut' : 'MUT', 'ref' : 'REF', 'in' : 'IN',
     'struct' : 'STRUCT', 'type' : 'TYPE', 'return' : 'RETURN', 'true' : 'TRUE',
     'false' : 'FALSE', 'where' : 'WHERE', 'write' : 'WRITE', 'int' : 'INT',
     'float' : 'FLOAT', 'çhar' : 'CHAR', 'str': 'STR', 'boolean' : 'BOOLEAN',
@@ -12,18 +14,22 @@ keywords = {
 tokens = [
     'IDENTIFIER', 'NUMBER',
     # Delimiters
-    'LPAREN', 'RPAREN', 'LCURLY', 'RCURLY', 'LSQR', 'RSQR', 'SEMICOLON', 'COMMA',
+    'LPAREN', 'RPAREN', 'LCURLY', 'RCURLY', 'LSQR', 'RSQR', 'SEMICOLON', 
+    'COMMA',
     # Operators
-    'EQUALS', 'NEQ', 'LEQ', 'GEQ', 'LT', 'GT', 'PLUS', 'MINUS', 'STAR', 'SLASH', 'MOD',
-] + list(keywords.values())
+    'EQUALS', 'NEQ', 'LEQ', 'GEQ', 'LT', 'GT', 'PLUS', 'MINUS', 'STAR', 
+    'SLASH', 'MOD',
+] + list(set(keywords.values()))
 
+# Make sure operations retain a specific order to remove ambiguity
 precedence = (
     ('left', 'PLUS', 'MINUS'),
     ('left', 'STAR', 'SLASH'),
     ('left', 'EQUALS', 'NEQ', 'LEQ', 'GEQ', 'LT', 'GT'),
 )
 
-# Handlers that ignore whitespace, comments, newlines, and print illegal chars respectively
+# Handlers that ignore whitespace, comments, newlines,
+# and print illegal chars respectively
 t_ignore = ' \t'
 
 def t_ignore_comment(t):
@@ -192,6 +198,5 @@ while True:
     if not tok:
         break
     print(tok)
-print("")
-result = parser.parse(data, lexer=lexer)
-print(result)
+log = logging.getLogger()
+parser.parse(data, lexer=lexer)

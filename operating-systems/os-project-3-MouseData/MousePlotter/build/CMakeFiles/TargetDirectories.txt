@@ -1,0 +1,3 @@
+/home/vboxuser/Work/MousePlotter/build/CMakeFiles/mouse_plotter.dir
+/home/vboxuser/Work/MousePlotter/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Work/MousePlotter/build/CMakeFiles/rebuild_cache.dir

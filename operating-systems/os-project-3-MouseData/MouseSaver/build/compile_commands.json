@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/vboxuser/Work/MouseSaver/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/MouseSaver/include -g -o CMakeFiles/mouse_saver.dir/src/saver.c.o -c /home/vboxuser/Work/MouseSaver/src/saver.c",
+  "file": "/home/vboxuser/Work/MouseSaver/src/saver.c",
+  "output": "CMakeFiles/mouse_saver.dir/src/saver.c.o"
+},
+{
+  "directory": "/home/vboxuser/Work/MouseSaver/build",
+  "command": "/usr/bin/gcc-13  -I/home/vboxuser/Work/MouseSaver/include -g -o CMakeFiles/mouse_saver.dir/src/main.c.o -c /home/vboxuser/Work/MouseSaver/src/main.c",
+  "file": "/home/vboxuser/Work/MouseSaver/src/main.c",
+  "output": "CMakeFiles/mouse_saver.dir/src/main.c.o"
+}
+]

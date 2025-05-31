@@ -1,0 +1,1169 @@
+{
+	"info": {
+		"_postman_id": "6fb2438c-6eec-4d1b-93ef-9967c2787a6f",
+		"name": "PostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44027541",
+		"_collection_link": "https://daniel-5335231.postman.co/workspace/Daniel's-Workspace~fe8ef60c-4c3f-4366-8bd2-1c8b376f7faf/collection/44027541-6fb2438c-6eec-4d1b-93ef-9967c2787a6f?action=share&source=collection_link&creator=44027541"
+	},
+	"item": [
+		{
+			"name": "/athlete",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"John Doe\",\r\n \"age\": 25,\r\n \"gender\": \"M\",\r\n \"height\": 180,\r\n \"weight\": 75\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/athlete",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"athlete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/athlete",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/athlete",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"athlete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/athlete/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/athlete/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"athlete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/athlete/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"John Doe\",\r\n \"age\": 25,\r\n \"gender\": \"M\",\r\n \"height\": 180,\r\n \"weight\": 75\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/athlete/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"athlete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/athlete/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/athlete/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"athlete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sport",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Basketball\",\r\n \"gender\": \"M\",\r\n \"venue\": \"indoor\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sport",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sport",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sport",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sport/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sport/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sport",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sport/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Basketball\",\r\n \"gender\": \"M\",\r\n \"venue\": \"indoor\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sport/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sport",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sport/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sport/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sport",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"alter_id\": \"qwerty\",\r\n \"name\": \"Push-Up\",\r\n \"force\": \"Push\",\r\n \"level\": \"Beginner\",\r\n \"mechanic \": \"Compound\",\r\n \"equipment\": \"None\",\r\n \"category\": \"Strength\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"alter_id\": \"qwerty\",\r\n \"name\": \"Push-Up\",\r\n \"force\": \"Push\",\r\n \"level\": \"Beginner\",\r\n \"mechanic \": \"Compound\",\r\n \"equipment\": \"None\",\r\n \"category\": \"Strength\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/team",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Sharks\",\r\n \"sport_id\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/team",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/team",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/team",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/team/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/team/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"team",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/team/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Sharks\",\r\n \"sport_id\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/team/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"team",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/team/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/team/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"team",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championship",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Spring Championship 2025\",\r\n \"winner_year\": 2025,\r\n \"winner_team\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championship",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championship"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championship",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championship",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championship"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championship/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championship/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championship",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championship/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"name\": \"Spring Championship 2025\",\r\n \"winner_year\": 2025,\r\n \"winner_team\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championship/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championship",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championship/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championship/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championship",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/sport/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/sport/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"sport",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/sport/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/29/sport/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"29",
+						"sport",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/instruction",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"instruction_number\": 6,\r\n \"instruction\": \"Lower your body until your chest nearly touches the floor.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/instruction",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"instruction"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/instruction/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/instruction/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"instruction",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/image",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"image_path\": \"/images/pushup1.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/image",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/image/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/image/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"image",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/primary-muscle",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"muscle\": \"hamstrings\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/primary-muscle",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"primary-muscle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/primary-muscle/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/primary-muscle/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"primary-muscle",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/secondary-muscle",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"muscle\": \"hamstrings\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/1/secondary-muscle",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"1",
+						"secondary-muscle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercise/{id}/secondary-muscle/{id}",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercise/2/secondary-muscle/1",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercise",
+						"2",
+						"secondary-muscle",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/teams/top-teams",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/teams/top-teams",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"teams",
+						"top-teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/teams/sports-distribution",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/teams/sports-distribution",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"teams",
+						"sports-distribution"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sports/popularity",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/sports/popularity",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"sports",
+						"popularity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/championships/most-wins",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/championships/most-wins",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"championships",
+						"most-wins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercises/most-performed",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercises/most-performed",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercises",
+						"most-performed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercises/muscle-group?muscle=chest",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercises/muscle-group?muscle=chest",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercises",
+						"muscle-group"
+					],
+					"query": [
+						{
+							"key": "muscle",
+							"value": "chest"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/exercises/most-complex",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://group-abcd-6cd3d84eb4d5.herokuapp.com/exercises/most-complex",
+					"protocol": "https",
+					"host": [
+						"group-abcd-6cd3d84eb4d5",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"exercises",
+						"most-complex"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

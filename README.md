@@ -25,6 +25,10 @@ Data Structures (Java):
 - SudokuValidifier [isValidSudoku()]: Returns a boolean of whether or not a 2D array Sudoku is valid in O(1) time.
 - TwoSums [twoSum()]: Function that finds a unique pair of ints in an array that form a target sum in O(n*log(n)) time.
 
+Database Systems (Python, PostgreSQL [Linux Ubuntu]):
+- dbs-project-SportsTracker: Group project for a Sports Tracker database app, with data contained on a Heroku cloud storage server. Project has ETL operations, a REST API implemented with Flask and PostgreSQL, and a thin, Streamlit frontend with an Ollama chatbot.
+- dbs-homework-DatabaseDesign: Group homework for designing the ER model and table diagrams for the database system of a chain of supermarkets, both made entirely within diagrams.net. Followed specifications and mapped out each table and their relations accordingly.
+
 Intro to Programming (Python):
 - introprog-project-1-BankSim: Singlehandedly programmed a bank account simulator with proper withdrawal, deposit and exit commands, alongside QoL features like accepting dollar sign inputs and displaying transaction calculations.
 - introprog-project-2-TextGame: Programmed a 1980s styled text adventure game, where you explore a house and do bizarre, comedic, and magical activities. Made to entertain players with a fun experience. Has QoL features like a built-in map and an inventory tracker.
